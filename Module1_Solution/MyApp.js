@@ -12,14 +12,14 @@
             if (currentItems) {
                 var currentItemsCount = SplitAndCheckCount(currentItems);
                 if (currentItemsCount <= 3) {
-                    $scope.Response = "Bon apetité dear.";
+                    $scope.Response = "Enjoy!";
                 }
                 else {
-                    $scope.Response = "bit much, no?";
+                    $scope.Response = "Too much!";
                 }
             } else
             {
-                $scope.Response = "You must eat something, it's not likely to be healthy this way.";
+                $scope.Response = "Please enter data first";
             }
             
         }
